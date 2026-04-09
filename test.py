@@ -8,7 +8,7 @@ from sklearn.metrics import confusion_matrix, classification_report
 print("TF Version:", tf.__version__)
 print("GPU:", tf.config.list_physical_devices('GPU'))
 
-IMG_SIZE = (256,256)
+IMG_SIZE = (128,128)
 BATCH_SIZE = 32
 TEST_DIR = "Dataset_Split/test"
 
